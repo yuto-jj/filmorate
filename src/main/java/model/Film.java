@@ -3,14 +3,14 @@ package model;
 import lombok.Data;
 
 import java.time.Duration;
-import java.time.Instant;
+import java.time.LocalDate;
 
 @Data
 public class Film {
 
-    int id;
+    Long id;
     String name;
     String description;
-    Instant releaseDate;
+    LocalDate releaseDate;
     Duration duration;
 }
