@@ -1,7 +1,6 @@
-package controllers;
+package application.controllers;
 
 import ch.qos.logback.classic.Logger;
-import ch.qos.logback.classic.Level;
 import exceptions.ValidationException;
 import model.User;
 import org.slf4j.LoggerFactory;

@@ -1,4 +1,4 @@
-package controllers;
+package application.controllers;
 
 import ch.qos.logback.classic.Logger;
 import exceptions.ValidationException;
